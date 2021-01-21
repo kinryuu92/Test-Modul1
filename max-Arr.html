@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arr max value</title>
+</head>
+<body>
+<script>
+    let testScore = [8, 2, 5, 9, 3, 4, 6];
+    let max = testScore[0];
+    function findMax() {
+        for (let i = 0; i < testScore.length; i++) {
+            if (testScore[i] > max) {
+                max = testScore[i];
+            }
+        }
+    }
+   findMax()
+    alert(" Test score max:" + max)
+</script>
+</body>
+</html>
